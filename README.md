@@ -4,6 +4,8 @@
 
 Projektet är en webbsida, där man kan se vilka filmer som är populära just nu och vilka som är topprankade. Det går också att söka på en film eller en person och får mer information om den med hjälp av The Movie Database (se länk nedan). Detta är med andra ord en väldigt förenklad version av IMdB.
 
+The Movie Database: https://developer.themoviedb.org/reference/getting-started
+
 Projektet innehåller följande filer: index.html, style.css, main.js, displayContent.js, functions.js och api.js
 
 1. main.js är huvudlogiken för webbapplikationen som låter användaren att upptäcka, söka och utforska filmer och person via ett externt API. Koden ansvarar bland annat för sökfunktionalitet, visning av filmer och personer, sortering efter popularitet samt fel- och offline hantering. Detta med hjälp av importerade funktioner från olika moduler.
