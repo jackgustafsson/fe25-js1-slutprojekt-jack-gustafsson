@@ -10,9 +10,9 @@ Projektet innehåller följande filer: index.html, style.css, main.js, displayCo
 
 1. main.js är huvudlogiken för webbapplikationen som låter användaren att upptäcka, söka och utforska filmer och person via ett externt API. Koden ansvarar bland annat för sökfunktionalitet, visning av filmer och personer, sortering efter popularitet samt fel- och offline hantering. Detta med hjälp av importerade funktioner från olika moduler.
 
-2. displayContent.js är presentationslagret i applikationen där den översätter rå API-data till användarvänliga HTML-element. Här skapas en DOM-struktur, innehåll för filmer och personer visas och interaktivitet läggs till.
+2. displayContent.js är presentationslagret i applikationen där den översätter rå API-data till användarvänliga HTML-element. Här skapas DOM-strukturer, innehåll för filmer och personer visas och interaktivitet läggs till.
 
-3. functions.js innehåller återanvändbara hjälpfunktioner som förenklar användarupplevelsen. Koden rensar och bygger om DOM:en, styr navigering och visning samt visar meddelanden.
+3. functions.js innehåller återanvändbara hjälpfunktioner som förenklar användarupplevelsen. Koden har funktioner som rensar och bygger om DOM:en, styr navigering och visning samt visar meddelanden.
 
 4. api.js är applikationens API-lager och ansvarar för all kommunikation med The Movie Database. Med hjälp av en API-nyckel kan man hämta film- och persondata och returnera det.
 
