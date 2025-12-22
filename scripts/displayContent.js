@@ -3,8 +3,8 @@ import { getMovie } from "./api.js";
 import { showMessage } from "./functions.js";
 
 /**
- * displayContent.js är presentationslagret i applikationen där den översätter rå API-data till användarvänliga HTML-element.
- * Koden ansvarar för bland annat skapande av DOM-struktur, visar innehåll för filmer och personer samt lägger till interaktivitet.
+ * displayContent.js är presentationslagret i applikationen där den översätter rå API-data till användarvänliga HTML-element. 
+ * Här skapas en DOM-struktur, innehåll för filmer och personer visas och interaktivitet läggs till.
  */
 
 export function displayTenMovies(movies, container) {

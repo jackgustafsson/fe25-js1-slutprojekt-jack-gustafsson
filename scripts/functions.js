@@ -1,8 +1,8 @@
 import _ from "https://cdn.jsdelivr.net/npm/underscore@1.13.7/underscore-esm-min.js";
 
 /**
- * functions.js innehåller återanvändbara hjälpfunktioner som förenklar användarupplevelsen.
- * Koden ansvarar bland annat för att rensa och bygga om DOM:en, styra navigering och visning samt visa meddelanden.
+ * functions.js innehåller återanvändbara hjälpfunktioner som förenklar användarupplevelsen. 
+ * Koden rensar och bygger om DOM:en, styr navigering och visning samt visar meddelanden.
  */
 
 export function showMessage(container, message) {
