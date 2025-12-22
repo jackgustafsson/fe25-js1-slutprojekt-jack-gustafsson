@@ -54,18 +54,18 @@ export function displayMovies(movies, container) {
     genreTitle.innerHTML = "<strong>Genres:</strong>";
 
     //Används för att hålla koll på vilka genrer som redan hämtats så att samma API-anrop inte görs flera gånger i onödan
-    let genresLoaded = false; 
+    let dataLoaded = false; 
 
     btn.addEventListener("click", () => {
-      if (!genresLoaded) {
+      if (!dataLoaded) {
         getMovie(movie.id).then(movieData => {
           console.log(movieData);
 
-            if(!movieData.genres || movieData.genres.length === 0){
-                showMessage(ul, "No genres found");
-                genresLoaded = true; 
-                return;
-            }
+          if(!movieData.genres || movieData.genres.length === 0){
+              showMessage(ul, "No genres found");
+              dataLoaded = true; 
+              return;
+          }
             
           _.each(movieData.genres, genre => {
             const li = document.createElement("li");
@@ -73,12 +73,12 @@ export function displayMovies(movies, container) {
             ul.appendChild(li);
           });
 
-          genresLoaded = true;
+          dataLoaded = true;
         })
         .catch(error => {
             console.error("Movie genres failed:", error);
             showMessage(ul, "Something went wrong while retrieving genres");
-            genresLoaded = true;
+            dataLoaded = true;
         })
       }
 
