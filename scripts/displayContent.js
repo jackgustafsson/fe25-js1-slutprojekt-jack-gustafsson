@@ -4,7 +4,7 @@ import { showMessage } from "./functions.js";
 
 /**
  * displayContent.js är presentationslagret i applikationen där den översätter rå API-data till användarvänliga HTML-element. 
- * Här skapas en DOM-struktur, innehåll för filmer och personer visas och interaktivitet läggs till.
+ * Här skapas DOM-strukturer, innehåll för filmer och personer visas och interaktivitet läggs till.
  */
 
 export function displayTenMovies(movies, container) {
