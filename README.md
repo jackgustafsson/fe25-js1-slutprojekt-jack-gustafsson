@@ -1,1 +1,17 @@
 # fe25-js1-slutprojekt-jack-gustafsson
+
+<strong>Slutprojekt för JavaScript 1-kursen </strong>
+
+Projektet är en webbsida, där man kan se vilka filmer som är populära just nu och vilka som är topprankade. Det går också att söka på en film eller en person och får mer information om den med hjälp av The Movie Database (se länk nedan). Detta är med andra ord en väldigt förenklad version av IMdB.
+
+Projektet innehåller följande filer: index.html, style.css, main.js, displayContent.js, functions.js och api.js
+
+1. main.js är huvudlogiken för webbapplikationen som låter användaren att upptäcka, söka och utforska filmer och person via ett externt API. Koden ansvarar för bland annat sökfunktionalitet, visning av filmer och personer, sortering efter popularitet samt fel- och offline hantering. Detta med hjälp av importerade funktioner från olika moduler.
+
+2. displayContent.js är presentationslagret i applikationen där den översätter rå API-data till användarvänliga HTML-element. Koden ansvarar för bland annat skapande av DOM-struktur, visar innehåll för filmer och personer samt lägger till interaktivitet.
+
+3. functions.js innehåller återanvändbara hjälpfunktioner som förenklar användarupplevelsen. Koden ansvarar bland annat för att rensa och bygga om DOM:en, styra navigering och visning samt visa meddelanden.
+
+4. api.js är applikationens API-lager och ansvarar för all kommunikation med The Movie Database. Med hjälp av en API-nyckel kan man hämta film- och persondata och returnera det.
+
+
