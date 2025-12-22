@@ -5,7 +5,7 @@ import {showMessage, createElements, toggleMovieContent} from "./functions.js";
 
 /**
  * main.js är huvudlogiken för webbapplikationen som låter användaren att upptäcka, söka och utforska filmer och person via ett externt API.
- * Koden ansvarar för bland annat sökfunktionalitet, visning av filmer och personer, sortering efter popularitet samt fel- och offline hantering
+ * Koden ansvarar för bland annat sökfunktionalitet, visning av filmer och personer, sortering efter popularitet samt fel- och offline hantering.
  * Detta med hjälp av importerade funktioner från olika moduler
  */
 
