@@ -13,3 +13,7 @@ Projektet innehåller följande filer: index.html, style.css, main.js, displayCo
 3. functions.js innehåller återanvändbara hjälpfunktioner som förenklar användarupplevelsen. Koden rensar och bygger om DOM:en, styr navigering och visning samt visar meddelanden.
 
 4. api.js är applikationens API-lager och ansvarar för all kommunikation med The Movie Database. Med hjälp av en API-nyckel kan man hämta film- och persondata och returnera det.
+
+5. index.html är grundstrukturen som talar om vad webbsidan består av
+
+6. style.css bestämmer sidans utseende
