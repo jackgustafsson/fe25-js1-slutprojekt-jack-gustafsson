@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./scripts/main.js" type="module"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="contentContainer">
+      <header>
+        <form>
+          <input type="text" id="searchField" placeholder="Search" />
+          <button>Sök</button>
+        </form>
+      </header>
+      <main>
+        <h3>
+          Welcome to the simplified version of IMDB. If you want to see
+          information about movies or people, you can either search for them or
+          press "Top 10 Rated Movies" or "Top 10 Popular Movies".
+        </h3>
+        <div class="elementsContainer">
+          <button class="toggle-btn">Show Top 10 Rated Movies</button>
+          <div class="movie-content" id="top-rated"></div>
+        </div>
+
+        <div class="elementsContainer">
+          <button class="toggle-btn">Show Top 10 Popular Movies</button>
+          <div class="movie-content" id="popular-movies"></div>
+        </div>
+      </main>
+      <footer>
+        <address>&copy; Jack Gustafsson FE25</address>
+      </footer>
+    </div>
+  </body>
+</html>

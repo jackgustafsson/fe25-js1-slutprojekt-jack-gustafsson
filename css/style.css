@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contentContainer {
+    background-color: black;
+    color: white;
+    width: 100rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.contentContainer .pElement {
+    font-size: 3rem;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+form input {
+    width: 50rem;
+}
+
+form button {
+    padding: 0.5rem;
+}
+
+main {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+main h3 {
+    padding: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.elementsContainer {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.toggle-btn {
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.movie-content {
+    display: none;
+    width: 80rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.movie-content.show {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    color: white;
+}
+
+.movies-grid,
+.people-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.movies-grid p,
+.people-grid p {
+    font-size: 1.5rem;
+}
+
+.movies-grid .pElement,
+.people-grid .pElement,
+#top-rated .pElement,
+#popular-movies .pElement {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.item {
+    border: solid white 0.1px;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.movieHeader,
+.peopleHeader {
+    padding-left: 1rem;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.backButton,
+.jumpToPeopleSection {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.moreInfoButton {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.ulContainer {
+    font-size: 1.5rem;
+    padding-left: 3rem;
+}
+
+.genre-container {
+    display: none;
+    margin-top: 1rem;
+}
+
+.genre-container.show {
+    display: block;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.5rem;
+}
